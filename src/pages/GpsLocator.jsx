@@ -6,7 +6,8 @@ const GpsLocator = () => {
   return (
     <Box>
       <Navigation />
-      <Text>GPS Locator page content goes here...</Text>
+      <Text>GPS Locator</Text>
+      <iframe title="GPS Locator" src="https://maps.example.com" width="100%" height="500px" style={{ border: "0" }} />
       {}
     </Box>
   );
