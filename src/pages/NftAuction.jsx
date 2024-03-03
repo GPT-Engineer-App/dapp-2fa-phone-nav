@@ -49,9 +49,9 @@ const NftAuction = () => {
         <Text fontSize="2xl" fontWeight="bold">
           Auction House
         </Text>
-        <TopNfts />
-        <Divider my={8} />
         <SearchNfts onSearch={handleSearch} />
+        <Divider my={8} />
+        <TopNfts />
         <Divider my={8} />
         <NftList />
       </VStack>
