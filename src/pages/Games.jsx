@@ -1,12 +1,16 @@
 import React from "react";
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, VStack } from "@chakra-ui/react";
+import SnakeGame from "../components/SnakeGame";
 import Navigation from "../components/Navigation";
 
 const Games = () => {
   return (
     <Box>
       <Navigation />
-      <Text>Games page content goes here...</Text>
+      <VStack spacing={8}>
+        <Text>Enjoy our selection of games!</Text>
+        <SnakeGame />
+      </VStack>
       {}
     </Box>
   );
